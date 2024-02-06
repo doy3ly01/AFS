@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/AFS/static/css/main.5bdcd420.css",
+    "main.js": "/AFS/static/js/main.34a2ced5.js",
+    "static/js/787.bf02cd78.chunk.js": "/AFS/static/js/787.bf02cd78.chunk.js",
+    "static/media/Payment-Processing.gif": "/AFS/static/media/Payment-Processing.23eef9168f0eb715f8eb.gif",
+    "static/media/Map.png": "/AFS/static/media/Map.4c5bf2cd2a3f74552889.png",
+    "static/media/loading.gif": "/AFS/static/media/loading.e8e790ff7ae5fcf9ef0e.gif",
+    "static/media/beach.png": "/AFS/static/media/beach.630d7095d65a908c3b82.png",
+    "static/media/Aeroplane.png": "/AFS/static/media/Aeroplane.81dafd8ec6935a7d1df2.png",
+    "static/media/Travel.png": "/AFS/static/media/Travel.cac410a1dddf0c832980.png",
+    "static/media/man.png": "/AFS/static/media/man.5f69e4b964c32dcf9d38.png",
+    "static/media/BigBen.png": "/AFS/static/media/BigBen.38734c245ad9218a75d8.png",
+    "static/media/EiffelTower.png": "/AFS/static/media/EiffelTower.6eef0740eb1d0e5e1055.png",
+    "static/media/WhiteHouse.png": "/AFS/static/media/WhiteHouse.eef6b760b906f3bdf3c2.png",
+    "static/media/around.png": "/AFS/static/media/around.ccb7305ce9060d760d05.png",
+    "static/media/google.png": "/AFS/static/media/google.e12914ad8afda3f6f2e8.png",
+    "static/media/LoginImg.png": "/AFS/static/media/LoginImg.22bd2de65985811c6783.png",
+    "index.html": "/AFS/index.html",
+    "main.5bdcd420.css.map": "/AFS/static/css/main.5bdcd420.css.map",
+    "main.34a2ced5.js.map": "/AFS/static/js/main.34a2ced5.js.map",
+    "787.bf02cd78.chunk.js.map": "/AFS/static/js/787.bf02cd78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bdcd420.css",
+    "static/js/main.34a2ced5.js"
+  ]
+}
