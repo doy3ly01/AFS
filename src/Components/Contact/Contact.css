@@ -1,0 +1,96 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure the sections stack on smaller screens */
+  gap: 20px; /* Provide space between sections */
+  padding: 40px;
+  max-width: 1200px; /* Maximum width of the contact container */
+  margin: auto; /* Center the container */
+  margin-top: 250px;
+}
+
+.contact-image {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.left-section,
+.right-section {
+  flex: 1; /* Both sections take equal space */
+  min-width: 300px; /* Minimum width before wrapping */
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align form to the start of the right section */
+}
+
+h2 {
+  font-size: 2.5rem; /* Increase font size */
+  color: #0056b3; /* Theme color */
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  width: 100%; /* Form takes the full width of its parent */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Space between form fields */
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: none; /* Disable resizing of textarea */
+}
+
+.submit-button {
+  padding: 1rem;
+  background-color: #191970; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transition for button hover effect */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Lighter blue on hover */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* Stack the sections on smaller screens */
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%; /* Full width on smaller screens */
+    align-items: center; /* Center the content */
+    text-align: center; /* Center the text */
+  }
+
+  h2 {
+    font-size: 2rem; /* Slightly smaller font size on smaller screens */
+  }
+}

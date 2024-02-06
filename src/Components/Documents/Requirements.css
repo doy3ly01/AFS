@@ -1,0 +1,113 @@
+
+.requirements-container {
+  max-width: 800px; /* same as Visa */
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 80px; 
+}
+
+.requirements-header {
+  background: rgba(237, 134, 0, 0.5);
+  padding: 20px; 
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+
+.landing-page-header p {
+  margin-left: 76px; /* Remove left margin to align with h1 */
+ 
+}
+
+h1 {
+  font-size: 24px; /* same as Visa */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px; /* same as Visa */
+  color: #555; /* same as Visa */
+  margin-bottom: 30px;
+}
+
+/* Style for each requirement category, similar to visa-card */
+.document-requirements {
+  border: 1px solid #ddd; /* same as Visa */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* same as Visa */
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #fff; 
+}
+
+/* Matching the title style to Visa */
+h2 {
+  font-size: 20px; /* same as Visa */
+  color: #0049B7; /* same as Visa */
+  margin-bottom: 10px;
+}
+
+/* Style for the list of requirements */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left; /* Align text to left */
+}
+
+li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Button styling similar to Visa */
+.view-more-button {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ed8600;
+  font-weight: bold;
+  font-size: 16px;
+  background: none;
+}
+
+.view-more-button:hover {
+  
+}
+
+/* Ready to Apply Section - match to Visa's ready-to-apply-card */
+.ready-to-apply-section {
+  margin-top: 40px; /* Space above section */
+  padding: 20px; /* Padding inside section */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.apply-now-button{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+
+.document-upload-link {
+  background-color: #0049B7; /* Button style */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.document-upload-link:hover {
+  background-color: #ed8600;
+}

@@ -1,0 +1,241 @@
+.body{
+    color: #f7f7f5;
+}
+
+.container {
+  margin: auto;
+  max-width: 100%;
+  padding: 20px;
+  margin-top: 200px;
+}
+.travel-image {
+    margin-top: 100px;
+   
+  }
+
+
+.main-container2{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center; /* Center horizontally */
+
+}
+
+.around-icon{
+    margin-right: 130px;
+    opacity: 80%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.underline{
+    width: 70px;
+    height: 8px;
+    background:#ed8600;
+    border-radius: 8px;
+}
+
+.text{
+    font-size: 44px;
+    font-weight: 600;
+    color: #0049B7;
+    font-weight: bolder;
+}
+
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 25px;
+}
+
+.row {
+    display: flex;
+    gap: 0px;
+  }
+
+.input input{
+    flex: 1;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 15px;
+}
+
+.forgot-password {
+    margin-top: 30px; 
+    color: #797979;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; /* Center text horizontally */
+  }
+
+.forgot-password span{
+    color: red;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.submit-container{
+    display: flex;
+    gap: 10px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    font-size:20px;
+    font-weight: 700;
+    background:#0049B7;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.gray{
+    background: #EAEAEA;
+    color: #797979;
+}
+
+.social-icons img{
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;  /* Center icons horizontally */
+    align-items: center;  /* Center icons vertically */
+    margin-top: 20px;  
+}
+
+.or-sign-up {
+    margin-top: 20px;  
+    font-size: 18px; 
+    color: #797979;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.container2 {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #f7f7f5;;
+    width: 650px;
+    margin-left: 700px;
+    margin-top: 200px;
+ 
+    
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-right: 100px;
+    max-width: 600px; }
+  
+  
+  .man-image {
+    height: 650px; /* Maintain the aspect ratio */
+    width: auto;
+  
+  }
+
+  /* Media queries for different screen sizes */
+@media screen and (min-width: 600px) {
+    /* Adjust styles for screens 600px and larger */
+    .container2 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .login-container {
+      max-width: 600px;  /* Limit the width of the login container */
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Adjust styles for screens 768px and larger */
+    .container2 {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  
+    .login-container {
+      max-width: 768px;  /* Limit the width of the login container */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    /* Adjust styles for screens 1024px and larger */
+    .container2 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .login-container {
+      max-width: 1024px;  /* Limit the width of the login container */
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    /* Adjust styles for screens 1200px and larger */
+    .container2 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .login-container {
+      max-width: 1200px;  /* Limit the width of the login container */
+    }
+  }
+
+  
+  
+  
+
+
+
+
+ 
+
+
+

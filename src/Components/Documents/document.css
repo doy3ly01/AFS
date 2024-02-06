@@ -1,0 +1,85 @@
+
+.document-upload-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+
+.document-upload-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.document-upload-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.document-upload-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.drag-and-drop {
+  border: 2px dashed #ddd;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.upload-icon {
+  font-size: 48px;
+  color: #0049B7;
+}
+
+.upload-text {
+  margin-top: 10px;
+}
+
+.upload-text span {
+  color: #0049B7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.drag-and-drop input {
+  display: none;
+}
+
+.drag-and-drop:hover {
+  background-color: #f7f7f7;
+}
+
+.drag-and-drop:hover label {
+  border-color: #0049B7;
+}
+
+.drag-and-drop:hover .upload-icon {
+  color: #ed8600;
+}
+
+.drag-and-drop:hover .upload-text span {
+  color: #ed8600;
+  text-decoration: underline;
+}
+
+.document-upload-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.document-upload-container ul li {
+  margin-bottom: 5px;
+}
+
+
+.document-upload-container button:hover {
+  background-color: #ed8600;
+}
+
+.error-message {
+  color: red;
+}

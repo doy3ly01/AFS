@@ -1,0 +1,455 @@
+/* MainDashboard.css */
+.body{
+  margin: 0;
+  padding-top: 60px;
+}
+
+
+
+
+.user-section {
+    padding-top: 60px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    min-height: 400px; 
+    margin: 70px auto; /* Center the section on the page */
+    color: #0a0a0a; /* Set text color to contrast with the background */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3)),
+    url('../../Components/Assets/Aeroplane.png') center/cover no-repeat;
+  
+  }
+
+
+
+.user-section h2,
+.user-section p {
+  position: relative; /* Ensure text and buttons are above the background image */
+  z-index: 1;
+  margin-left: 80px;
+  margin-top: 40px;
+  color: white;
+}
+
+.user-section p {
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+
+.user-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-weight: bolder;
+  }
+  
+  .user-section h2 span {
+    display: inline-block;
+  }
+  
+  .user-section h2 .word {
+    display: inline-block;
+    opacity: 1;
+    transition: transform 3s ease-in-out;
+    transform-origin: 100%;
+    transform: translateX(0%);
+  }
+  
+  .user-section h2 .word.hidden {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  
+  
+  
+  .user-section p {
+    margin-bottom: 15px;
+  }
+  
+  .user-section button {
+    background-color: #ed8600;
+    color: white;
+    padding: 20px 10px;
+    border: 2.5px solid;
+    border-color:#0049B7;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top:10px; /* Adjust margin between buttons */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+
+    
+  }
+  
+  .user-section button:hover {
+    background-color: #ed8600;
+    transform: scale(1.1); /* Grow the button on hover */
+  }
+  
+  .user-section .button-container {
+    display: flex;
+    margin-top: 10px; /* Adjust margin between buttons */
+    margin-left: 80px;
+  }
+  
+  .user-section .button-container button {
+    width: 150px; /* Set a fixed width for the buttons */
+    margin-right: 10px; /* Adjust margin between buttons */
+  }
+  /*Visa section*/
+  
+
+
+.services-section {
+  
+    display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 1200px;
+  height: 700px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  
+  }
+  
+  .services-title h1 {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.services-title h1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10%;
+    height: 8px;
+    margin-top: 20px;
+    background-color: #ed8600; /* Set the color of the underline */
+    bottom: -20%;
+    left: 45.2%;
+}
+  
+  .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px; /* Add margin to create space between title and services */
+  }
+  
+  .service {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.7s;
+    margin: 10px;
+    position: relative;
+    
+  }
+
+  .service p{
+    margin-left: 80px;
+   
+  }
+
+  .service h3{
+    margin-top: 20px;
+
+  }
+  
+  .service:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .service.selected {
+    background-color:#0049B7;
+    color: #fff;
+    transition: 2s smooth;
+    box-shadow: rgba(95, 94, 94, 0.966) 5px 5px, rgba(95, 94, 94, 0.966) 10px 10px, rgba(95, 94, 94, 0.966) 15px 15px;}
+
+  .service.selected .service-icon {
+    filter: brightness(0) invert(1); /* This will turn the icon white */
+  }
+
+  .services-section p{
+    display: inline-block;
+  }
+
+  .service.selected p{
+    color: white;
+  }
+
+
+
+  .service button {
+    background-color:#ed8600;
+    color: #fff;
+    padding: 15px 60px;
+    border: 2.5px solid;
+    border-color:#0049B7;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px; 
+    display: block; /* Ensure the button takes full width */
+    margin-left: 100px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+  }
+
+  
+
+  .service button:hover{
+    background-color: #ed8600;
+  transform: scale(1.1); /* Grow the button on hover */
+    color: #fff;
+  }
+  
+  .service .service-icon {
+  
+    position: absolute;
+    top: 35%;
+    left: 5px; /* Adjust the right margin as needed */
+    transform: translateY(-50%);
+    font-size: 100px; 
+    color: #0049B7; 
+  } 
+  
+
+ 
+  
+  /*About us*/ 
+
+  .about-us-section {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #0049B7;
+    padding: 70px 300px;
+    border-bottom:solid 2px #ed8600;
+    border-top: solid 2px #ed8600;
+    
+  }
+  
+  
+  .about-us-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .about-us-card p {
+    margin-bottom: 15px;
+  }
+  
+  .about-us-card button {
+    background-color: #ed8600;
+    color: #fff;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    border: 2.5px solid;
+    border-color:#191970;
+    transition: all 0.3s ease-in-out; 
+  }
+
+
+  .about-us-card button:hover{
+    background-color: #ed8600;
+    transform: scale(1.1); /* Grow the button on hover */
+    color: #fff;
+  }
+  
+  
+ 
+  
+  .about-us-card {
+    position: absolute;
+    top: 50%;
+    left: 70%; /* Center the card horizontally */
+    transform: translate(-50%, -50%); /* Center the card vertically and horizontally */
+    margin-right: 20vw; /* Adjust the spacing to the right */
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 550px; /* Set a fixed width for the card */
+    height: 220px; /* Set a fixed height for the card */
+    border-radius: 40px;
+  }
+  
+  .about-us-section img {
+    width: 100%; /* Make the image fill the entire card */
+    height: auto;
+    display: block;
+    width: 600px; /* Set a fixed width for the card */
+    height: 350px; /* Set a fixed height for the card */
+    border-radius: 30px;
+  }
+  
+
+
+
+ 
+.visa-types-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .visa-types-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .visa-types-item {
+    width: 300px; 
+    height: 300px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .visa-types-item:hover{
+  transform: scale(1.03); 
+    transition: transform 0.4s ease; /* Add a smooth transition */
+  }
+  
+  
+  .visa-types-image {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 2%;
+    overflow: hidden;
+    opacity: 90%;
+  }
+  
+ 
+  
+  
+.visa-type-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Set text color to contrast with the background */
+    text-align: center;
+    z-index: 1; /* Ensure text is above the image */
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .visa-title{
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    font-size: 2em;
+
+ 
+  }
+
+
+.visa-title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 12%;
+    height: 8px;
+    margin-top: 20px;
+    background-color: #ed8600; /* Set the color of the underline */
+    bottom: -25%;
+    left: 44.2%;
+}
+
+@media screen and (max-width: 768px) {
+  .user-section, .about-us-section, .services-section {
+      padding: 20px;
+  }
+
+  .about-us-card, .service, .visa-types-item {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .services-section {
+      grid-template-columns: 1fr;
+  }
+
+  .about-us-card {
+      left: 50%;
+      top: 60%;
+      padding: 20px;
+  }
+
+  .user-section h2, .about-us-card h2, .services-title h1 {
+      font-size: 1.2em;
+  }
+
+  .user-section p, .service p, .about-us-card p {
+      font-size: 0.9em;
+  }
+
+  .user-section .button-container, .service button, .about-us-card button {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .service .service-icon {
+      font-size: 60px;
+      top: 20%;
+  }
+
+  .about-us-section img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .user-section h2 {
+      font-size: 1.5em;
+  }
+
+  .user-section p, .service p, .about-us-card p {
+      font-size: 0.8em;
+  }
+
+  .service .service-icon {
+      font-size: 50px;
+  }
+
+  .about-us-card {
+      width: 90%;
+      top: 65%;
+  }
+
+  .visa-types-item {
+      width: 90%;
+  }
+
+  .services-section {
+      height: auto;
+  }
+}
+
+
+  
+  
